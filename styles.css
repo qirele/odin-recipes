@@ -123,3 +123,18 @@ main,header {
 .recipe ul {
     list-style: disc;
 }
+
+.ingredients, .steps {
+    background-color: hsl(288, 77%, 10%);
+    padding: 0px 50px 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.steps li{
+    margin: 10px 0;
+}
+
+.desc {
+    line-height: 1.3;
+}

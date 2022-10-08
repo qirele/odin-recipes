@@ -20,5 +20,6 @@ This website is all about recipes and how to fulfill them into reality
 * Making frequent and sensible commits is crucial in order to keep the project understandable by You and collaborators.
 * Long commit messages are bad.
 * HTML (revised)
+* CSS (revised)
 * Markdown (a bit)
 
