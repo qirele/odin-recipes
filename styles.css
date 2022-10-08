@@ -6,12 +6,22 @@
 
 h1,h2,h3,h4 {
     font-family: Garamond, Times, serif;
-    font-size: 5rem;
     text-align: center;
 }
 
-ul {
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.8rem;
+}
+
+ul, ol {
     padding: 0;
+}
+
+ul {
     list-style: none;
 }
 
@@ -24,31 +34,31 @@ img {
     display: block;
     height: auto;
     max-width: 500px;
-    margin: 0 auto;
-}
-
-.homepage-body {
-    background-color: #2c0735;
-}
-
-.homepage{
-    max-width: 1000px;
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.homepage img {
     margin: 50px auto;
     box-shadow: 0px 0px 15px 5px #4CC9F0;
     border-radius: 10px;
     border: 5px solid#4CC9F0;
 }
 
+.homepage-body, .recipe {
+    background-color: #2c0735;
+}
 
-.homepage h1 {
+main,header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.homepage{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.homepage h1, .recipe {
     color: #4CC9F0;
     text-shadow: 1px 2px 5px #0087b0;
 }
@@ -63,8 +73,7 @@ img {
     flex: 1;
 }
 
-.recipes a {
-    display: block;
+.cool-btn {
     background-color: hsl(333, 100%, 65%) ;
     color: #1c074e;
     padding: 30px 50px;
@@ -76,7 +85,11 @@ img {
     border-radius: 10px;
 }
 
-.recipes a:hover, .recipes a:active, .recipes a:focus {
+.recipes a {
+    display: block;
+}
+
+.cool-btn:hover, .cool-btn:active, .cool-btn:focus {
     background-color: #4CC9F0;
     color: #480CA8;
     transform: translateY(-2px);
@@ -84,3 +97,29 @@ img {
     border: 5px solid hsl(194, 85%, 73%);
 }
 
+/* all recipes pages styles */
+
+.recipe h1, .recipe h2 {
+    padding: 40px 0px;
+}
+
+.recipe {
+    font-size: 20px;
+}
+
+.recipe img {
+    width: 400px;
+}
+
+.recipe a {
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    width: 200px;
+    margin: 60px auto;
+}
+
+.recipe ul {
+    list-style: disc;
+}
