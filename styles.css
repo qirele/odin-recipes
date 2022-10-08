@@ -138,3 +138,7 @@ main,header {
 .desc {
     line-height: 1.3;
 }
+
+.recipe h1 {
+    line-height: 0.9;
+}
